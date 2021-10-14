@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: auto;
+    width: auto;
+    background: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+img {
+    margin-bottom: 30px;
+}
+
+p {
+    margin: 30px 0px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 40px;
+    color: hsl(0, 0%, 95%);
+}
+
+button {
+    margin-top: 50px;
+    padding: 15px 30px;
+    border: solid 2px hsl(0, 0%, 95%) ;
+    border-radius: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.card-container {
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards {
+    min-width: 300px;
+    max-width: 300px;
+    height: 465px;
+    padding: 45px;
+    border: none
+}
+
+#sedan-card {
+    background-color: hsl(31, 77%, 52%);
+}
+
+#suv-card {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury-card {
+    background-color: hsl(179, 100%, 13%);
+}
+
+#sedan-button {
+    color: hsl(31, 77%, 52%);
+}
+
+#sedan-button:hover {
+    border: solid 2px hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+#suv-button {
+    color: hsl(184, 100%, 22%);
+}
+
+#suv-button:hover {
+    border: solid 2px hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+#luxury-button {
+    color: hsl(179, 100%, 13%);
+}
+
+#luxury-button:hover {
+    border: solid 2px hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.attribution {
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    padding: 15px 0px;
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    color: hsl(0, 0%, 95%);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #40e0d0;
+}
